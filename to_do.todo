@@ -1,0 +1,25 @@
+
+
+Functionality:
+ ☐ Dashboard
+   ☐ speed and cadence graphs
+   ☐ save a workout
+   ☐ overlay previous workouts on top of current
+   ☐ pause / resume current workout
+   ☐ User Profiles
+     ☐ save info
+       ☐ bike
+       ☐ trainer type
+       ☐ FB integration?
+       
+
+  Architecture:
+  ☐ Pi 
+     ☐ boots a server to work on localHost
+     ☐ interfaces with bike to track cadence and speed
+     ☐ Rails App
+       ☐ Redis DB
+         ☐ Pub / Sub to live-stream speed and cadence data to client
+         ☐ 
+  ☐ Client
+    ☐ 
