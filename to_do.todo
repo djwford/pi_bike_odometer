@@ -1,4 +1,5 @@
-
+NOTE TO SELF:
+  you really have to think in terms of request/response architecture -- it doesn't really make sense to have a local version in the browser. Not even sure that's possible. BUT! Maybe you can have it so that the Pi acts as a web server and serves the data over the local network ala POW utilizing websockets.
 
 Functionality:
  ☐ Dashboard
@@ -11,7 +12,7 @@ Functionality:
        ☐ bike
        ☐ trainer type
        ☐ FB integration?
-       
+
 
   Architecture:
   ☐ Pi 
